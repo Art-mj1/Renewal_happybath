@@ -1,0 +1,21 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+ul,
+ol {
+ list-style: none;
+}
+
+p,
+a {
+ text-decoration: none;
+ color: #333;
+}
+
+body {
+ font-size: 14px;
+ font-family: 'Nanum Gothic', sans-serif;
+}
