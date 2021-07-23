@@ -5,11 +5,15 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Happybath</title>
- <link rel="stylesheet" href="css/style.css">
- <link rel="stylesheet" href="css/reset.css">
+ <!-- Reset Css -->
+ <link rel="stylesheet" href="/happybath/css/reset.css">
+ <!-- Style Css -->
+ <link rel="stylesheet" href="/happybath/css/style.css">
  <!-- library link -->
- <link rel="stylesheet" href="lib/lightslider.css">
- <link rel="short-cut icon" href="img/logo.png">
+ <link rel="stylesheet" href="/happybath/lib/lightslider.css">
+ <link rel="short-cut icon" href="/happybath/img/logo.png">
+ <!-- Font Awesome Link -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body>
 <div id="wrap">
@@ -37,21 +41,23 @@
       </ul>
     </div>
     <div class="slides">
-      <div class="slide-wrap">
-        <div class="slide">
-          <img src="img/banner1.jpg">
-        </div>
-        <div class="slide">
-          <img src="img/banner2.jpg">
-        </div>
-        <div class="slide">
-          <img src="img/banner3.jpg">
-        </div>
-        <div class="slide">
-          <img src="img/banner4.jpg">
-        </div>
-        <div class="slide">
-          <img src="img/banner5.jpg">
+      <div class="slide-all">
+        <div class="slide-wrap">
+          <div class="slide">
+            <img src="img/banner1.jpg">
+          </div>
+          <div class="slide">
+            <img src="img/banner2.jpg">
+          </div>
+          <div class="slide">
+            <img src="img/banner3.jpg">
+          </div>
+          <div class="slide">
+            <img src="img/banner4.jpg">
+          </div>
+          <div class="slide">
+            <img src="img/banner5.jpg">
+          </div>
         </div>
       </div>
       <div class="dots">
@@ -61,25 +67,153 @@
         <span class="dot"></span> 
         <span class="dot"></span> 
       </div>
-    </div>
-    <div class="all-control">
-      <div class="start">
-        <i class="fas fa-play-circle"></i>
+      <div class="all-control">
+        <div class="start" id="start">
+          <i class="fas fa-play-circle"></i>
+        </div>
       </div>
-      <div class="pause">
-        <i class="fas fa-pause-circle"></i>
-      </div>      
     </div>
-  <div class="best-seller">
-    <ul class="seller-wrap">
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-      <li><a href=""></a></li>
-    </ul>
-  </div>
+   <div class="best-seller">
+     <p>베스트 셀러 아이템</p>
+      <div class="item">
+        <div class="prev1">&lt;</div>
+        <div class="list-wrap">
+          <div class="lists">
+            <div class="list-item">
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">케어딕트 올인원 베이스</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item2.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">드로잉 아이즈 하드 브로우 오토</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item3.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">스누피 더블 글라스 세트_홈카페</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item4.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">플레이 컬러 아이즈 더스티 캣</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item5.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">애교살 메이커</h3>
+                </div>
+              </div>
+            </div>
+            
+            <div class="list-item">
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item4.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">마이 뷰티툴 듀얼브러쉬 #더스티 캣</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item3.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">순정 약산성 시카 토너 500ml</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item5.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">순정 약산성 5.5 진정 토너 500ml</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item2.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">더블래스팅 쿠션 매트 기획세트</h3>
+                </div>
+              </div>
+              <div class="new">
+                <div class="list">
+                  <img src="img/best-item.png">
+                </div>
+                <div class="text">
+                  <h3 class="txt">컬 픽스 마스카라</h3>
+                </div>
+            </div>        
+          </div>    
+        </div>    
+        </div>
+        <div class="next1">&gt;</div>
+      </div>
+    </div>
+
 </div>
-<script src="js/slide.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="lib/lightslider.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+  let current1 = 0;
+  const a = $(".lists .list-item:nth-child(1)").clone();
+  const b = $(".lists .list-item:nth-child(2)").clone();
+  b.prependTo($(".lists")); //$(".lists").prepend(a);
+  a.prependTo($(".lists"));
+  $(".lists").css({
+  transform: "translateX(-50%)"
+  });
+
+  function prevFn(n){
+  $(".lists").animate({left: `${-100 * n}%`}, 600, function(){
+    const det = $(".lists .list-item:last-child").detach();
+    det.prependTo($(".lists"));
+    $(".lists").css("left", "");
+    current1 = 0;
+  });
+  }
+
+  function nextFn(n){
+  $(".lists").animate({left: `${-100 * n}%`}, 600, function(){
+    const det = $(".lists .list-item:nth-child(1)").detach();
+    det.appendTo($(".lists"));
+    $(".lists").css("left", "");
+    current1 = 0;
+  });
+  }
+
+  $(".prev1").on('click',function(){
+  current1 -= 1;
+  prevFn(current1);
+  });
+
+  $(".next1").on('click',function(){
+  current1 += 1;
+  nextFn(current1);
+  });
+</script>
+<script src="/happybath/js/slide.js"></script>
+<script src="/happybath/js/jq.slidemove.js"></script>
+<script src="/happybath/lib/lightslider.js"></script>
+
+</script>
 </body>
 </html>
