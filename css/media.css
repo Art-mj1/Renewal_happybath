@@ -1,0 +1,21 @@
+@media screen and (max-width:1450px){
+ .dots{margin-top:-2.5%;}
+ #wrap .best-seller .item .prev1{margin-left:0;}
+ #wrap .best-seller .item .next1{margin-right:0;} 
+ .list-wrap .new .list{width:75%;}
+ #wrap .info{height:90%;}
+ .info .review .text{padding:5.5%;}
+ .review .text>h3{font-size:18px;}
+ #wrap .beauty .talk .tip{margin-top:-65%;}
+ .image_accordian ul li div a span{font-size:25px;}
+}
+@media screen and (max-width:1250px){
+ #wrap>header .center .logo{width:49%;}
+ #wrap .center .nav{width:45%;}
+ #wrap .center .nav>ul>li{font-size:14px;}
+ .list-wrap .new .list{width:70%;}
+ .info .review .text{width:60%;}
+ .list-wrap .text .txt{font-size:13px;}
+ .image_accordian ul li div a span{font-size:25px;}
+}
+@media screen and (max-width:1055px){}
