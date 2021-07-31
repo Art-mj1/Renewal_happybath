@@ -158,6 +158,7 @@
   align-items: center;justify-content: center;}
  .list-wrap .new .list {width: 80%;height: 100%;display: flex; margin-left: 8%;}
  .list-wrap .new .list>img {width: 80%;height: 90%;}
+ 
  .list-wrap .new .text {width: 100%; height: 160%; min-height: 20px; max-height: 40px; }
  .list-wrap .text .txt {width: 100%;height: 100%;font-size: 14px; display: block;
   text-align: center; padding-top: 15px;line-height: 22px;}

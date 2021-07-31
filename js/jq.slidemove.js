@@ -16,7 +16,6 @@ $(function(){
    $(".subnav_box").eq(i).show();
  });
 
- 
 });
 
 // $(document).ready(function(){});
