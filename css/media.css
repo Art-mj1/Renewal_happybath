@@ -44,8 +44,8 @@
 .hidden_sub .subnav_box.box_4{width:695px;}
 #wrap .slides{height:46%;}
 }
-@media screen and (max-width:1001px){.hidden_sub{display:none;}}
 @media screen and (max-width:970px){
+ .hidden_sub {display:none;}
  #wrap .center .nav{width:50%;}
  #wrap .slides{height:50%;}
  #wrap .info{width:120%;height:65%;}
