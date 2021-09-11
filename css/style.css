@@ -355,7 +355,9 @@ header .mobile_inner .close_btn span:nth-child(1) {
 header .mobile_sub_nav li {
  line-height: 25px;
 }
-
+.member.mobile_sub_nav_1 li:hover{
+  color:#775954;
+}
 header .mobile_sub_nav li a {
  font-size: 12px;
  color: #000;
